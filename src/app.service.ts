@@ -18,4 +18,8 @@ export class AppService {
       age: 99,
     };
   }
+
+  gitTesting(): string {
+    return 'Git and GitHub using';
+  }
 }

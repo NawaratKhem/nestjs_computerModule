@@ -20,4 +20,9 @@ export class AppController {
   showJSON(): UserDTO {
     return this.appService.showJson();
   }
+
+  @Get('/githubtest')
+  showGitHubTest(): string {
+    return this.appService.gitTesting();
+  }
 }

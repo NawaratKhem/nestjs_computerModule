@@ -3,3 +3,9 @@ export interface UserDTO {
   lastName: string;
   age: number;
 }
+
+export interface productDTO {
+  name: string;
+  age: number;
+  hobby: string;
+}

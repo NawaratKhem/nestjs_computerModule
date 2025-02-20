@@ -1,0 +1,5 @@
+# EditorConfig file for enforcing consistent coding styles
+root = true
+
+[*]
+end_of_line = lf

@@ -8,7 +8,7 @@ export class AppService {
   }
 
   showInfo(): string {
-    return 'Hello, I am Khim, 25.3 years old';
+    return 'Hello, I am Khim';
   }
 
   showJson(): UserDTO {
@@ -21,5 +21,9 @@ export class AppService {
 
   gitTesting(): string {
     return 'Git and GitHub using';
+  }
+
+  postTesting(): string {
+    return 'We use postman';
   }
 }

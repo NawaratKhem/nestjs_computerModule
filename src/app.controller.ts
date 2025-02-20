@@ -25,4 +25,9 @@ export class AppController {
   showGitHubTest(): string {
     return this.appService.gitTesting();
   }
+
+  @Get('/usepostman')
+  showPostman(): string {
+    return this.appService.postTesting();
+  }
 }
